@@ -1,19 +1,5 @@
-# hello.py
-print("Hello GitHub! This is my first Python file!")
-print("سن من ۲۲ سال است و تازه شروع کردم!")
-print("انشاالله موفق می‌شوم! 💪")
-
-
-
-
-
-
-
-
-
-
-
-Commit new file
-Title: Add first Python file
-Description: My very first Python code on GitHub
-✔ Commit directly to the main branch
+# hello.py - نسخه پیشرفته‌تر
+name = input("اسمت چیه؟ ")
+age = int(input("چند سالته؟ "))
+print(f"سلام {name}! {age} سالته.")
+print(f"تو {2026 - age} سالگی متولد شدی!")
